@@ -14,3 +14,19 @@ elif gpa>4:
 
 else:
     print("Your grades are low you can't get addmission in US")
+
+
+# Single line Condional Statement
+
+# var = var1 if condition else var2
+food = input("Food :")
+
+eat = 'YES' if food=='cake' else 'NO' # If food is cake then YES, i'll eat food othewise NO
+print(eat)
+
+# str1 if condition else str2
+food = input("Food :")
+
+print("Sweet") if food=='cake' or food=='jalebi' else print("Not Sweet")
+
+
