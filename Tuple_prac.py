@@ -6,10 +6,8 @@ print(Tuple.count('A')) # ---> 3
 
 # Store the above values in a list and sort them from 'A' to 'D'
 
-# Store the tuple values in a list
-grade_list = list(Tuple)
+grade_list = list(Tuple) # ---> Converted Tuple to list
 
-# Sort the list from 'A' to 'D'
-grade_list.sort()
+grade_list.sort() # ---> Sorted the list from 'A' to 'D'
 
 print(grade_list) 

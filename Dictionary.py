@@ -1,5 +1,6 @@
 # Include Key, Value pairs
 # Mutable, Unordered
+# Key msut be unique
 
 Dict = {
     'name':'Idris',
