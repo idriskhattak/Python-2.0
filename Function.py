@@ -42,11 +42,4 @@ conv(8)"""
 
 show(5)"""
 
-# 6: Write a recursive function to calculate the sum of first n natural numbers
-def sum(n):
-    if(n==0):
-        return
-    print(n)
-    sum(n-1) +1
 
-sum(5)
