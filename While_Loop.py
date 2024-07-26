@@ -48,7 +48,7 @@ while i < len(tpl):
         print("Found at index :",i)
     i += 1"""
 
-# Break : Used to terminate the loop when encountered
+# 6: Break : Used to terminate the loop when encountered
 
 """i = 1
 while i<5:
@@ -58,7 +58,7 @@ while i<5:
     i +=1
 print("Loop Breaked")"""
 
-# Continue : terminates execution in the current iteration & continues execution of the loop with next iteration
+# 7: Continue : terminates execution in the current iteration & continues execution of the loop with next iteration
 """
 i = 0
 while i <=10:
@@ -68,13 +68,35 @@ while i <=10:
     print(i)
     i+=1"""
 
-i = 0
+# 8: ODD number example for continue statement
+"""i = 0
 while i <=10:
     if(i%2==0):
         i+=1
         continue
     print(i)
     i+=1
+"""
 
+# 9: WAP to find the sum of first n natural numbers. 
+"""n = int(input('Enter the number to find the sum :'))
+sum = 0
+i = 1
 
+while i<=n:
+    sum +=i
+    i +=1
+
+print(sum)"""
+
+# 10: WAP to find the factorial of first n numbers.
+n = int(input("Enter any number :"))
+fact = 1
+i = 1
+
+while i<=n:
+    fact *=i
+    i +=1
+
+print(f"Factorial of {n} is :",fact)
 
