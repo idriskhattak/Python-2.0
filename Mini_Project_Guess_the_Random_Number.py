@@ -9,7 +9,7 @@ while True:
     num = random.randint(1, 10)
     #print(num)  # For testing purposes, you might want to remove this in the final version
     guess = int(input("Enter a number to Guess (between 1 and 10): "))
-    
+
     while True:
         if guess > num:
             guess = int(input("Enter the value again, you have guessed a greater value than the number: "))
