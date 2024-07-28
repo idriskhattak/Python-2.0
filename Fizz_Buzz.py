@@ -17,5 +17,5 @@ def fizzbuzz(n):
         else:
             print(i)
 
-# Example usage
+
 fizzbuzz(100)
