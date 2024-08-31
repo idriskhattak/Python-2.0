@@ -40,7 +40,7 @@ print(tup[0])
 print(tup[0:2])
 
 # Priting the index of the occurance of the something
-print(tup.index('idris'))
+print(tup.index(23))
 
 # Counting total number of occurance
 print(tup.count('idris'))

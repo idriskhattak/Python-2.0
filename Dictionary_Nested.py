@@ -19,3 +19,4 @@ print(Dict['name']['stnd_1'])
 print(Dict.keys()) # Priting just the keys in Dict
 print(Dict.values())  # Priting just the values in Dict
 print(Dict.items())  # Priting both the keys and values in Dict
+print(Dict['name']['stnd_1'])
