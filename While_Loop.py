@@ -90,7 +90,7 @@ while i<=n:
 print(sum)"""
 
 # 10: WAP to find the factorial of first n numbers.
-n = int(input("Enter any number :"))
+"""n = int(input("Enter any number :"))
 fact = 1
 i = 1
 
@@ -99,4 +99,9 @@ while i<=n:
     i +=1
 
 print(f"Factorial of {n} is :",fact)
+"""
+
+
+
+
 

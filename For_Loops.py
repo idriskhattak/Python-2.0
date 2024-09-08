@@ -34,11 +34,22 @@ else:
 for i in range(1,11):
     print(f"{n} * {i} =",n*i)"""
 
-# 6: WAP to find the factorial of first n numbers. 
+"""# 6: WAP to find the factorial of first n numbers. 
 n = int(input("Enter any number :"))
 mul = 1
 
 for i in range(1,n+1):
-    mul *=i
+        mul *=i
 
-print(f"Factorial of {n} is :",mul)
+print(f"Factorial of {n} is :",mul)"""
+
+num = int(input("Enter a number : "))
+mul = 1
+i = 1
+while i<=num:
+        print(i)
+        mul*=i
+        i +=1
+
+print(mul)
+        
