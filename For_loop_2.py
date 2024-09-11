@@ -98,12 +98,36 @@ print(odd)"""
 # Probelm 4 :Sum of Squares:
 """Write a for loop to compute the sum of squares(**) of all integers from 1 to n, where n is a given number."""
 
-n = int(input("Enter the number to compute the squares from 1 to n :"))
+"""n = int(input("Enter the number to compute the squares from 1 to n :"))
 
 for i in range(n+1):
     print(f"The sum of {i} is {i**2}")
+"""
+# Problem 5: Prime numbers
+"""A number is prime if it is devisble by 1 and by itself"""
 
+"""num = int(input("Enter a number to check wheter it is a Prime or Not"))
 
+for i in range(2,num):
+    if num % i ==0:
+        print(f"The given number {num} is not Prime Number")
+        break
 
+else:
+    print(f"The given number {num} is Prime Number")
+"""
+# Problem 6: Fibonacci Series
 
+"""num = int(input("Enter any number greater than 0 :"))
 
+sum = 0
+n1 = 0
+n2 = 1
+
+for i in range(num):
+    print(sum, end=" ")
+    n1 = n2
+    n2 = sum
+    sum = n1+n2
+
+"""
